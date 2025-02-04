@@ -1,16 +1,16 @@
 # Future
-python 3.10.6 (added to path)
-ffmpeg (added to path)
+- python 3.10.6 (added to path)
+- ffmpeg (added to path)
 
 
-CMD to your install folder
-git clone https://github.com/Elise96nl/Future.git
-cd Future
-python -m venv env
-env\Scripts\activate
-python.exe -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python run.py 
+## CMD to your install folder
+- git clone https://github.com/Elise96nl/Future.git
+- cd Future
+- python -m venv env
+- env\Scripts\activate
+- python.exe -m pip install --upgrade pip
+- python -m pip install -r requirements.txt
+- python run.py 
 
 
 ### Features
