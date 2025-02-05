@@ -12,7 +12,8 @@
 - python -m pip install -r requirements.txt
 - python run.py 
 
-
+backup model folder
+#### https://drive.google.com/file/d/1KJEkPCrZ1Ow9jAw43QBhL3tmL7MpqFw9/view?usp=drive_link
 ### Features
 
 - Platform-independant Browser GUI
