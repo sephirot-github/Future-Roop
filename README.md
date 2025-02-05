@@ -6,7 +6,7 @@
 
 ## CMD to your install folder
 - git clone https://github.com/Elise96nl/Future.git
-- cd Future
+- cd Future-Roop
 - python -m venv env
 - env\Scripts\activate
 - python.exe -m pip install --upgrade pip
