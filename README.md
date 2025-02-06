@@ -5,7 +5,7 @@
 - CUDNN 9.x (path)
 
 ## CMD to your install folder
-- git clone https://github.com/Elise96nl/Future.git
+- git clone https://github.com/Elise96nl/Future-Roop.git
 - cd Future-Roop
 - python -m venv env
 - env\Scripts\activate
