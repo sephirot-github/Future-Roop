@@ -33,7 +33,7 @@ def install_dependencies():
 
     # Install Git and clone repo
     run_cmd("conda install -y -k git")
-    run_cmd("git clone https://github.com/Elise96nl/Future.git")
+    run_cmd("git clone https://github.com/Elise96nl/Future-Roop.git")
     os.chdir(MY_PATH)
     run_cmd("git checkout main")
     # Installs dependencies from requirements.txt
