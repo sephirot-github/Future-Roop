@@ -73,7 +73,7 @@ if "%ffmpeg_exists%" == "F" (
         cd "%INSTALL_DIR%"
         move ffmpeg-* ffmpeg
         setx PATH "%INSTALL_FFMPEG_DIR%\bin\;%PATH%"
-        echo To use videos, you need to restart roop after this installation.
+        echo To use videos, you need to restart future-roop after this installation.
         cd ..
     )
 ) else (
@@ -85,7 +85,7 @@ if "%ffmpeg_exists%" == "F" (
 if not exist "%INSTALL_ENV_DIR%\python.exe" ( echo. && echo ERROR: Conda environment is empty. && goto end )
 @rem activate installer env
 call "%CONDA_ROOT_PREFIX%\condabin\conda.bat" activate "%INSTALL_ENV_DIR%" || ( echo. && echo ERROR: Miniconda hook not found. && goto end )
-echo Launching roop unleashed
+echo Launching future-roop
 call python installer.py %COMMANDLINE_ARGS%
 
 echo.
