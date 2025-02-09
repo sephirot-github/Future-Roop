@@ -1,6 +1,9 @@
 # Future Roop
 - python 3.10.6 (added to path)
 - ffmpeg (added to path)
+##
+- at this moment i'm using torch 2.6.0 (with cuda 12.6 and cudnn inside)
+
 
 
 ## CMD to your install folder
