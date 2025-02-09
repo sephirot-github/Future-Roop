@@ -1,8 +1,7 @@
 # Future Roop
 - python 3.10.6 (added to path)
 - ffmpeg (added to path)
-- cuda 12.6 (path)
-- CUDNN 9.x (path)
+
 
 ## CMD to your install folder
 - git clone https://github.com/Elise96nl/Future-Roop.git
