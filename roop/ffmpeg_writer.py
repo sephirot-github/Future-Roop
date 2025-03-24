@@ -71,7 +71,7 @@ class FFMPEG_VideoWriter:
 
     def __init__(self, filename, size, fps, codec="libx265", crf=14, audiofile=None,
                  preset="medium", bitrate=None,
-                 logfile=None, threads=None, ffmpeg_params=None):
+                 logfile=None, threads=None, ffmpeg_params=['-movflags', 'faststart']):
 
         if logfile is None:
             logfile = sp.PIPE
