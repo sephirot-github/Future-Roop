@@ -1,8 +1,23 @@
 # Future Roop
-- python 3.10.6 (added to path)
+
+## Prerequisites
+
+- **Python**: python 3.10.6 (added to path)
+- **Desktop Development with C++**: This can be installed via Visual Studio Installer to ensure compatibility with the necessary packages.
+- **Microsoft Visual C++ Redistributable**: Download and install the Microsoft Visual C++ Redistributable from the link below:
+- [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 - ffmpeg (added to path)
 ##
 - at this moment i'm using torch 2.6.0 (with cuda 12.6 and cudnn inside)
+
+  
+### Step-by-Step Installation
+
+1. **Install Desktop Development with C++**
+
+   - Open **Visual Studio Installer**.
+   - Install the **Desktop Development with C++** workload to ensure compatibility with the required C++ components for packages like ONNX and InsightFace.
+
 
 
 
@@ -32,6 +47,7 @@ backup model folder
 - Theme Support
 
 and lots more...
+
 
 
 ## Disclaimer
