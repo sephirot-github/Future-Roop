@@ -34,6 +34,63 @@ backup model folder
 #### https://drive.google.com/file/d/1KJEkPCrZ1Ow9jAw43QBhL3tmL7MpqFw9/view?usp=drive_link
 ### Features
 
+
+
+**how to use my AMD gpu with directML**
+
+close app
+
+go inside future-roop folder with terminal
+
+and get inside the venv:
+
+`env\Scripts\activate`
+
+
+`pip uninstall torch torchvision onnxruntime-gpu onnxruntime`
+`pip install onnxruntime-directml`
+`pip install torch-directml`
+
+
+python run.py
+
+
+it will run cpu only, you can see in terminal: 
+
+_Using provider ['CPUExecutionProvider'] - Device:cpu_
+
+go to settings and change cpu to DML, save settings. go to terminal and ctrl+c to close future roop. 
+
+and then restart
+
+python run.py
+
+now it should say: 
+
+_Using provider ['DmlExecutionProvider'] - Device:cpu_
+
+
+
+**Gradio error solve:**
+
+TypeError: argument of type 'bool' is not iterable
+Exception When localhost is not accessible, a shareable link must be created. Please set share=True or check your proxy settings to allow access to localhost. when launching Gradio Server!
+Closing server running on port: 7860
+
+go inside future-roop folder with terminal
+
+and get inside the venv:
+
+`env\Scripts\activate`
+
+and update gradio
+
+`pip install gradio -U`
+
+
+
+
+
 - Platform-independant Browser GUI
 - Selection of multiple input/output faces in one go
 - Many different swapping modes, first detected, face selections, by gender
