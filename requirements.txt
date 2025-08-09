@@ -6,13 +6,9 @@ onnx==1.18.0
 insightface==0.7.3
 albucore==0.0.23
 psutil==5.9.6
-torch==2.6.0+cu126; sys_platform != 'darwin'
-torch==2.6.0; sys_platform == 'darwin'
-torchvision==0.21.0+cu126; sys_platform != 'darwin'
-torchvision==0.21.0; sys_platform == 'darwin'
-onnxruntime==1.20.1; sys_platform == 'darwin' and platform_machine != 'arm64'
-onnxruntime-silicon==1.16.3; sys_platform == 'darwin' and platform_machine == 'arm64'
-onnxruntime-gpu==1.20.1; sys_platform != 'darwin'
+torch==2.6.0+cu126
+torchvision==0.21.0+cu126
+onnxruntime-gpu==1.20.1
 tqdm==4.66.4
 ftfy
 regex
